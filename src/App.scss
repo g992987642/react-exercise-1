@@ -6,4 +6,88 @@
 
   width: 960px;
   background-color: $white;
+  margin-top: 150px;
+  text-align: center;
 }
+
+
+.headPortrait{
+  border-radius: 50%;
+  margin-top: -100px;
+  width: 16%;
+  height: 16%;
+  margin-bottom: 20px;
+
+}
+
+
+.introducation{
+  border-bottom: 3px solid $gray;
+}
+
+.introducation h1{
+   font-size: 30px;
+   margin-bottom: 25px;
+ }
+
+.introducation p{
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.about_me{
+  margin-top: 30px;
+}
+
+.about_me h1, .education_list h1 {
+  color: $primary-color;
+  padding-bottom: $base-padding;
+  text-align: left;
+  margin-left: $base-margin;
+}
+
+.about_me p{
+  margin-left: $base-margin;
+  text-align: left;
+}
+
+.education_list {
+  margin-top: $base-margin;
+}
+
+.education_item{
+
+  display: flex;
+  margin-left: $base-margin;
+}
+
+.education_year{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.education_description{
+  width: 100%;
+  background-color: $gray;
+  margin-left: 50px;
+  margin-bottom: $base-margin;
+  font-size: 15px;
+  text-align: left;
+}
+
+.education_description_title, .education_description_content{
+  margin: 10px;
+}
+
+.education_description_title{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.education_description_content{
+  font-size: 13px;
+}
+
+
+
